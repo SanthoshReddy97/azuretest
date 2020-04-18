@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send({msg : "hello world testing!!"})
+    res.send({msg : "hello world !! Azure testing"})
 });
 
 app.listen(8080, (err, succcess) => {
